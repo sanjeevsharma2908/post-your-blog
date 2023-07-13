@@ -13,7 +13,7 @@ const Create = () => {
         //console.log();
         setIsPending(true);
 
-        fetch('http://localhost:8000/blogs',{
+        fetch('https://dojo-blog-wfti.onrender.com/blogs',{
             method:'POST',
             headers:{
                 'Content-Type':'application/json'
