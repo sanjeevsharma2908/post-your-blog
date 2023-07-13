@@ -3,7 +3,7 @@ import useFetch from "./useFetch";
 import BlogList from "./BlogList";
 
 const Home = () => {
-  const{data:blogs, isLoading,error} = useFetch("http://localhost:8000/blogs"); 
+  const{data:blogs, isLoading,error} = useFetch("https://data-api-imkn.onrender.com/blogs"); 
   
   //const {data:blogs, isLoading,error} = useFetch('https://reqres.in/api/login');
 
