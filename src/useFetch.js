@@ -11,7 +11,7 @@ const useFetch = (url) =>{
         setTimeout(() => {
           fetch(url,{signal:abortCont.signal})
             .then((res) => {
-              console.log(res);
+              //console.log(res);
               if (!res.ok) {
                   throw Error('could not fetch products')
               }

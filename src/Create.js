@@ -20,7 +20,7 @@ const Create = () => {
             },
             body:JSON.stringify(blog)
         }).then(()=>{
-            console.log('New blog Added successfully!');
+           alert('New blog Added successfully!');
             setIsPending(false);
             history.push('/');
 
