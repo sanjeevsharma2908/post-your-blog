@@ -13,7 +13,7 @@ const Create = () => {
         //console.log();
         setIsPending(true);
 
-        fetch('https://data-api-imkn.onrender.com/blogs',{
+        fetch('https://data-api-imkn.onrender.com/',{
             method:'POST',
             headers:{
                 'Content-Type':'application/json'
