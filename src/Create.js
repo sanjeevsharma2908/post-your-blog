@@ -9,11 +9,11 @@ const Create = () => {
     const history =useHistory();
     const handleSubmit = (e) => {
         e.preventDefault()
-        const blog ={title,body,author,id:7};
+        const blog ={title,body,author};
         //console.log();
         setIsPending(true);
 
-        fetch('https://data-api-imkn.onrender.com/',{
+        fetch('https://data-api-imkn.onrender.com/blogs',{
             method:'POST',
             headers:{
                 'Content-Type':'application/json'
